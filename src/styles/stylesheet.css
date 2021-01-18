@@ -1,0 +1,283 @@
+html{
+overflow: auto;
+}
+
+.backgroundImg{
+    background-image: url("../Components/images/background1.jpg");
+    text-align: right;
+    color: rgba(255, 0, 0, 0.829);
+    background-size: cover;
+    height: 90vh;
+    position: fixed;
+    top: 0px;
+}
+.headerBlank{
+    height: 120px;
+    width:100vw;
+    background: linear-gradient(to left, rgba(214, 214, 214, 0.712), rgba(0, 0, 0, 0.4)); 
+}
+
+
+.logo{
+    margin-top: 5px;
+    margin-left: 20px;
+    background-image: url("../Components/images/logo.png");
+    height: 27px;
+    width: 120px;
+    float: left;
+    padding-left: 180px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.logo > a{
+    text-decoration : none;
+    color: #000000;
+}
+
+.nav{
+    color: #000000;
+    list-style: none;
+    text-align: right;
+}
+.nav > li{
+    display: inline-block;
+    padding: 30px 20px 20px 25px;
+    font-size: 14px;
+    font: bold;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: rgb(5, 21, 37);
+}
+.nav > li :hover{
+    color:#ffffff;
+    background-color: rgb(3, 21, 73);    
+
+}
+.pos{
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: auto;
+    overflow-y: auto;
+   
+}
+.back{
+    background-color:#58585875;
+    height: auto;
+    width: 1583px;
+    top: 0px;
+}
+.btn
+{ 
+    padding: 10px;
+    border: none;
+}
+.blankbackground{
+    background-color: #FFFFFF;
+}
+
+:root{
+    --mainDark:#343a40;
+    --mainLightGray: #F8F9FA;
+
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.logo-text{
+    font-family: Candara Bold;
+}
+
+.bor{
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        border: none;
+        display: block;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid #4c4c4c; 
+        height: 0;
+        line-height: 30px;
+        
+}
+
+.bor1{
+       
+    padding: 5px;
+        text-decoration: none;
+        color: white;
+        border: none;
+        display: block;        
+        border-left: 100px solid transparent;
+        border-top: 20px solid #4c4c4c;
+        height: 0;
+        line-height: 30px;
+}
+
+.parallax-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.reguler-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    z-index: 2;
+    position: relative;
+}
+
+.parallax-wrapper::before{
+    content: "";
+    width: 100vw;
+    height: 40vw;
+    top:0;
+    left: 0;
+    background-image: url("../Components/images/background22.png");
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.content{
+    margin: 0 auto;
+    padding: 50px;
+    width: 80%;
+    background: #aaaaaa;
+}
+
+.service-heading{
+    text-align: center;
+    text-decoration: none;
+    color: #27233e;
+    width: 100vw;
+
+}
+
+.main-div{
+    width: 100vw;
+background-color: #c3c8cd;
+}
+
+.image-box{
+    background: linear-gradient(rgba(211, 210, 209, 0.712), rgba(34, 34, 34, 0.4)) , center center;
+        background-size: cover;
+    
+
+  /* Here's the same styles we applied to our content-div earlier */
+  color: #ffffff;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-image{
+    
+    height: 30vw;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../Components/images/background11.jpg");
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    flex-direction: column;
+}
+
+.big-image-contact{
+     height: 30vw;
+     width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-image: url("../Components/images/contact.jpg");
+    
+}
+
+.big-image-about{
+    height: 30vw;
+    width: 100vw;
+   position: relative;
+   background-size: cover;
+   background-attachment: fixed;
+   background-image: url("../Components/images/background.jpg");
+   
+}
+
+
+
+.parallax-wrapper-about{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.content-about{
+    margin: 0 auto;
+    padding: 50px;
+    width: 80%;
+    background: linear-gradient(to left, rgba(214, 214, 214, 0.712), rgba(0, 0, 0, 0.4));
+}
+.overlay-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    flex-direction: column;
+}
+
+.big-image-pro{
+    
+    height: 30vw;
+    width: 100vw;
+   position: relative;
+   background-size: cover;
+   background-attachment: fixed;
+    background-image: url("../Components/images/product.png");
+}
+.big-image-contact-home{
+    
+    height: 20vw;
+    width: 100vw;
+   position: relative;
+   background-size: cover;
+  background-position: 50% 50%;
+    background-image: url("../Components/images/contact-home.jpg");   
+}
