@@ -159,8 +159,9 @@ body{
 .content{
     margin: 0 auto;
     padding: 50px;
-    width: 80%;
+    width: 90%;
     background: #aaaaaa;
+    
 }
 
 .service-heading{
@@ -174,13 +175,14 @@ body{
 .main-div{
     width: 100vw;
 background-color: #c3c8cd;
+position: relative;
 }
 
 .image-box{
     background: linear-gradient(rgba(211, 210, 209, 0.712), rgba(34, 34, 34, 0.4)) , center center;
         background-size: cover;
-    
 
+        border-radius : 2px;
   /* Here's the same styles we applied to our content-div earlier */
   color: #ffffff;
   min-height: 50vh;
@@ -218,8 +220,7 @@ background-color: #c3c8cd;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
-
-    background-image: url("../Components/images/contact.jpg");
+    background-image: url("../Components/images/contacttrial.jpg");
     
 }
 
@@ -248,6 +249,27 @@ background-color: #c3c8cd;
     padding: 50px;
     width: 80%;
     background: linear-gradient(to left, rgba(214, 214, 214, 0.712), rgba(0, 0, 0, 0.4));
+}
+
+.content-about-home{
+    margin: 0 auto;
+    padding: 5px;
+    width: 90%;
+    background: linear-gradient(to left, rgba(214, 214, 214, 0.712), rgba(0, 0, 0, 0.4));
+}
+
+.big-image-about-home{
+    height: 30vw;
+    position: relative;
+    background-size: cover;
+    background-image: url("../Components/images/steelfabrication.jpg");
+}
+.parallax-wrapper-about-home{
+    width: 100vw;
+    height: auto;
+    padding-top: 5vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
 }
 .overlay-1{
     position: absolute;
@@ -281,3 +303,5 @@ background-color: #c3c8cd;
   background-position: 50% 50%;
     background-image: url("../Components/images/contact-home.jpg");   
 }
+
+

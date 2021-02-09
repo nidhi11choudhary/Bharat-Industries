@@ -14,8 +14,8 @@ class Service_info extends Component {
         return (
           <InfoConsumer>
                 {value =>(  
-                            <div className="col-3 mb-8 ml-5" >
-                             <div className="card image-box " style={{width:'20rem'}}>
+                            <div className="col-3 mb-5 ml-5 mr-3 mt-5" >
+                             <div className="card image-box " style={{width:'20rem', borderRadius:'2px'}}>
 
                                 <img src={photo} alt="photos" className="card-img-top " style={{height:'300px', position:"absolute"}}>
                                     </img>  

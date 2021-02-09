@@ -10,5 +10,4 @@ ReactDOM.render(
     <Router>
         <Main/>
     </Router>
-</InfoProvider>
-,document.getElementById('root'));
+</InfoProvider>,document.getElementById('root'));

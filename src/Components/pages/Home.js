@@ -10,7 +10,6 @@ class Home extends Component {
                 <div className="big-image mt-5">
                     <div className="overlay">
                         <h1>Fabricating The Exigencies</h1>
-                        <p></p>
                     </div>
                 </div>
                 <div className="service-heading mt-5">
@@ -19,6 +18,21 @@ class Home extends Component {
                        <h4> chemical and pharmaceutical industries</h4>
                     <p></p>
                 </div>
+                <div className="parallax-wrapper-about-home"> 
+                    <div className="content-about-home">
+                    <div className="container">
+                    <div className="big-image-about-home mt-5">
+                    <div className="overlay">
+                   
+                   <h1>Bharat Industries</h1>
+                
+                    </div>
+                </div>  
+                          
+                    </div>  
+                    </div>
+                </div>
+
                 <div className="service-heading mt-5">
                     <h1>What we offer?</h1>
                     <h4><b>Bharat Industries</b> established in year of 2011. We are very much glad to introduce ourselves as Engineers, Fabricators</h4>
@@ -26,7 +40,6 @@ class Home extends Component {
                        <h4> for heavy as well as regular engineering industries in alloy steel, carbon steel &#38; stainless steel. We undertake fabrication of</h4>
                        <h4> various process equipment required for chemical and pharmaceutical industries which is mentioned in our profile. </h4>
                     
-                    <p></p>
                 </div>
                 <div className="parallax-wrapper"> 
                     <div className="content">
@@ -44,6 +57,7 @@ class Home extends Component {
                      </div>  
                     </div>
                 </div>
+
                 <div className="big-image-contact-home">
                     <div className="overlay">
                         <div className="container" >

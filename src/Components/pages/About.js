@@ -17,7 +17,7 @@ class About extends Component {
 
 
             <div className="service-heading mt-5">
-                    <h1>Bharat Industries </h1> <h4>Fabrication The Freshmaker</h4>
+                    <h1>Bharat Industries </h1>
                     <p></p>
                 </div>
 

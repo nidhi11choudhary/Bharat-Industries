@@ -9,10 +9,6 @@ class InfoProvider extends Component {
         aboutus: about,
         products: product,
         home_services:home_service
-
-       // headerTitles: headerTitle,
-        //headerSubTitle:headerSubTitle,
-        //headerText:headerText
     }
     render() {
         return (
